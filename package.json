@@ -1,0 +1,23 @@
+{
+    "name": "simple-theme",
+    "displayName": "Simple Theme",
+    "description": "Just simple",
+    "version": "0.0.10",
+    "publisher": "crsk",
+    "engines": {
+        "vscode": "^1.99.3"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Simple Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/simple-theme-color-theme.json"
+            }
+        ]
+    },
+    "license": "MIT"
+}
